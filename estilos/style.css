@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --cor-principal: #DA2535;
+
+    /* Dark Scale */
+
+    --dark-100: #181818;
+    --dark-70 : #474747;
+    --dark-20 : #EBE9EA;
+    --dark-10 : #F9F9F9;
+    --white   : #FFFFFF;
+
+    /* Color System */
+
+    --message: #2962FF;
+    --Sucess : #0BB07B;
+    --Warning: #FFCE52;
+    --Error  : #F03D3D;
+    --Information: #E0E0E0;
+
+    /* Fontes */
+
+    --fonte-titulo: 'Montserrat', sans-serif;
+    --fonte-texto: 'Inter', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.logo span {
+    color: var(--cor-principal);
+}
+
+.nav-bar {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-bar a {
+    font-family: var(--fonte-texto);
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--dark-100);
+}
+
+.button {
+    padding: 10px 60px;
+    border: 2px solid var(--dark-100);
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.button a {
+    font-family: var(--fonte-texto);
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--dark-100);
+}
+
+/* Section config general */
+
+.section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section 1 */
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.text-section-1 {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-section-1 h1 {
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--dark-100);
+}
+
+.text-section-1 p {
+    font-family: var(--fonte-texto);
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(41, 41, 41, 1);
+}
+
+.button-section-1 {
+    height: 60px;
+    width: 292px;
+    background-color: var(--cor-principal);
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+
+    color: white;
+    font-family: var(--fonte-texto);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.image-section-1 {
+    height: 534px;
+}
+
+
+/* Section 2 */
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 125px;
+}
+
+.image-section-2 {
+    width: 604px;
+    height: 500px;
+    border-radius: 16px;
+}
