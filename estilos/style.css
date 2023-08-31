@@ -153,4 +153,93 @@ html {
     width: 604px;
     height: 500px;
     border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-section-2 {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-section-2 h1 {
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.text-section-2 p {
+    font-family: var(--fonte-texto);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.text-section-2 a {
+    font-family: var(--fonte-texto);
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration-line: underline;
+    color: var(--cor-principal);
+}
+
+/* Section 3 */
+
+.section-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+}
+
+.section-3 h1 {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+    font-size: 48px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.card {
+width: 375px;
+min-height: 400px;
+background: #f3f3f3;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-end;
+border-radius: 32px;
+padding-inline: 10px;
+padding: 40px;
+}
+
+.card-img {
+align-self: center;
+max-width: 200px;
+height: 200px;
+position: absolute;
+top: -80px;
+}
+
+.nome-do-prato,
+.preco-do-prato {
+font-size: 32px;
+color: #292929;
+text-align: center;
+}
+
+.descricao-prato {
+font-size: 20px;
+line-height: 160%;
+margin: 24px 0px;
+color: #616161;
+text-align: center;
 }
