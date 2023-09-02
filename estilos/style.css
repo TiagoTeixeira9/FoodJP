@@ -243,3 +243,13 @@ margin: 24px 0px;
 color: #616161;
 text-align: center;
 }
+
+/* Section 4 */
+
+.section-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
