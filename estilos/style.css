@@ -188,7 +188,7 @@ html {
 
 .section-3 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 250px;
@@ -205,6 +205,14 @@ html {
 img {
     display: block;
     max-width: 100%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
 }
 
 .card {
@@ -248,15 +256,33 @@ text-align: center;
 
 .section-4 {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding: 75px 0;
+}
+
+.section-4 h1 {
+    width: 100%;
+    text-align: left;
+    font: var(--fonte-titulo);
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.comentarios {
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+    margin: 0 auto;
+    padding: 40px 0;
 }
 
 .daniele , .ricardo {
     display: flex;
     flex-direction: column;
+    gap: 35px;
+    width: 604px;
+    height: 390px;
 
     background-color:rgba(243, 243, 243, 1);
     border-radius: 16px;
@@ -283,6 +309,7 @@ text-align: center;
     display: flex;
     flex-direction: column;
     font-family: var(--fonte-texto);
+    color: rgba(97, 97, 97, 1);
     font-weight: 400;
     font-size: 24px;
 }
@@ -291,6 +318,7 @@ text-align: center;
     display: flex;
     flex-direction: column;
     font-family: var(--fonte-texto);
+    color: rgba(97, 97, 97, 1);
     font-weight: 400;
     font-size: 24px;
 }
@@ -311,15 +339,18 @@ text-align: center;
 .section-5 {
     display: flex;
     flex-direction: column;
+    gap: 50px;
     align-items: center;
     padding-top: 200px;
     padding-bottom: 200px;
 }
 
 .section-5 h1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
+    width: 100%;
+    text-align: left;
+    font: var(--fonte-titulo);
+    font-weight: 600;
+    font-size: 48px;
 }
 
 .map {
@@ -331,16 +362,14 @@ text-align: center;
 }
 
 .search-local {
-    width: 100%;
-    max-width: 75rem;
+    width: 750px;
     display: flex;
     align-items: center;
     column-gap: 2rem;
     padding-left: 2rem;
     background: #FFFFFF;
     border-radius: 1rem;
-    min-height: 7rem;
-    height: auto;
+    height: 75px;
     border: 0.1rem solid var(--dark-100);
     border-right: none;
 }
@@ -397,8 +426,8 @@ input[type="text"]::placeholder {
     border-radius: 0 1rem 1rem 0;
     font-weight: 500;
     font-size: 2.4rem;
-    height: 7rem;
-    width: 18rem;
+    height: 75px;
+    width: 200px;
     cursor: pointer;
     transition: all 0.3s;
     text-align: center;
