@@ -1,2 +1,2 @@
 # FoodJP
- More one project to my account ; )
+ More one project to my account ;)
